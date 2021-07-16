@@ -7,3 +7,4 @@
 * 使用命令`git add <file>` ，可反复多次使用，添加多个文件；
 * 使用命令`git commit -m <messenge>`，完成提交。
 
+爱是海上的烟火
