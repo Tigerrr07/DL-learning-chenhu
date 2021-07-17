@@ -47,3 +47,11 @@
 从远程库克隆
 * 知道仓库的地址, 然后使用`git clone`命令克隆.
 * Git支持多种协议, 包括`http`, 但`ssh`协议最快.
+
+创建与合并分支
+* 查看分支: `git branch`
+* 创建分支: `git branch <name>`
+* 切换分支: `git switch <name>`
+* 创建+合并分支: `git switch -c <name>`
+* 合并某分支到当前分支: `git merge <name>`
+* 删除分支: `git branch -d <name>`
