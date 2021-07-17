@@ -43,3 +43,7 @@
 * 关联远程库, 使用命令`git remote add orgin git@server-name:path/repo-name.git`, `origin`是远程库默认习惯命名.
 * 关联后, 使用命令`git push -u origin master`第一次推送master分支的所有内容.
 * 此后每次本地提交后, 使用命令`git push origin master`推送最新修改
+
+从远程库克隆
+* 知道仓库的地址, 然后使用`git clone`命令克隆.
+* Git支持多种协议, 包括`http`, 但`ssh`协议最快.
