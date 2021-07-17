@@ -38,3 +38,8 @@
   * 从版本库中删除该文件, 用命令`git rm <file>`删掉, 并且`git commit`.
   * 删错了, 利用`git checkout -- test.txt`将文件恢复到最新版本. (`git checkout`其实是用版本库的版本替换工作区的版本, 无论工作区是修改还是删除, 都可以还原)
 * 如果从版本库中也已删除, 使用`git reset --hard commit_id`也可恢复.
+
+添加远程库
+* 关联远程库, 使用命令`git remote add orgin git@server-name:path/repo-name.git`, `origin`是远程库默认习惯命名.
+* 关联后, 使用命令`git push -u origin master`第一次推送master分支的所有内容.
+* 此后每次本地提交后, 使用命令`git push origin master`推送最新修改
