@@ -55,4 +55,4 @@
 * 创建+切换分支: `git switch -c <name>`
 * 合并某分支到当前分支: `git merge <name>`
 * 删除分支: `git branch -d <name>`
-* 删除远程分支和追踪分支: `git push origin -d dev`
+* 删除远程分支: `git push origin -d dev`
